@@ -1,0 +1,6 @@
+com\minidb\Main.class
+com\minidb\REPL.class
+com\minidb\TableManager.class
+com\minidb\Color.class
+com\minidb\MetaManager.class
+com\minidb\StorageManager.class

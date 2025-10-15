@@ -21,11 +21,12 @@ public class REPL {
     		Terminal terminal = TerminalBuilder.builder().system(true).build();
     		LineReader reader = LineReaderBuilder.builder().terminal(terminal).history(new DefaultHistory()).build();
     		
-    		System.out.println(Color.YELLOW + "╔══════════════════════════════════════════════╗" + Color.RESET);
-    		System.out.println(Color.YELLOW + "║                   MiniDB                     ║" + Color.RESET);
-    		System.out.println(Color.YELLOW + "║                                              ║" + Color.RESET);
-    		System.out.println(Color.YELLOW + "║  Copyrights Reserved (2025) Andrew Godwin J  ║" + Color.RESET);
-    		System.out.println(Color.YELLOW + "╚══════════════════════════════════════════════╝" + Color.RESET);
+    		System.out.println(Color.YELLOW + "**************************************************" + Color.RESET);
+		System.out.println(Color.YELLOW + "*                    MiniDB                      *" + Color.RESET);
+		System.out.println(Color.YELLOW + "*                                                *" + Color.RESET);
+		System.out.println(Color.YELLOW + "*   Copyrights Reserved (2025) Andrew Godwin J   *" + Color.RESET);
+		System.out.println(Color.YELLOW + "**************************************************" + Color.RESET);
+
             System.out.println();
     		
     		
