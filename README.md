@@ -1,4 +1,4 @@
-# MiniDB 🗄️
+# MiniDB 
 
 MiniDB is a lightweight, file-based relational database management system written in Java.  
 It supports basic SQL-like operations including creating and dropping tables, inserting rows, selecting data, updating and deleting rows, and listing table metadata.
@@ -7,7 +7,7 @@ This project demonstrates core database concepts such as storage management, sch
 
 ---
 
-## Features ✨
+## Features 
 
 - **CREATE TABLE** – Define a new table with column names and types (INT or TEXT)  
 - **INSERT INTO** – Insert rows into a table with type validation  
@@ -21,7 +21,7 @@ This project demonstrates core database concepts such as storage management, sch
 
 ---
 
-## Future Improvements [Advanced] 🚀
+## Future Improvements [Advanced] 
 
 - Subqueries  
 - Joins  
@@ -31,11 +31,11 @@ This project demonstrates core database concepts such as storage management, sch
 
 ---
 
-## How to Run 🖥️
+## How to Run 
 
 1. Download or clone this repo  
 2. Navigate to the run folder  
 3. Open CMD/Terminal in that folder  
 4. Enter the following command: java -jar MiniDB.jar
-5. MiniDB will open successfully. Try out some queries! 🎉
+5. MiniDB will open successfully. Try out some queries! 
 
