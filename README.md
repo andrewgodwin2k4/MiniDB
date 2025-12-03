@@ -33,9 +33,10 @@ This project demonstrates core database concepts such as storage management, sch
 
 ## How to Run 
 
-1. Download or clone this repo  
-2. Navigate to the run folder  
-3. Open CMD/Terminal in that folder  
-4. Enter the following command: java -jar MiniDB.jar
-5. MiniDB will open successfully. Try out some queries! 
+1. Make sure Docker is installed and running on your system.
+2. Pull the MiniDB Docker image from Docker Hub:
+   docker pull andrew2k4/minidb:latest  
+3. Run MiniDB in an interactive terminal:
+   docker run -it --rm --name minidb andrew2k4/minidb
+4. MiniDB will open successfully. Try out some queries! 
 
