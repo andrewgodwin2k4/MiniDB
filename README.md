@@ -18,6 +18,7 @@ This project demonstrates core database concepts such as storage management, sch
 - **SHOW TABLES** – List all existing tables  
 - **DESC tableName** – Display column metadata for a table  
 - **Terminal UI** – Color-coded, user-friendly REPL interface using ANSI colors  
+- **Tests for Devs** – Ensure that the logic is working properly  
 
 ---
 
