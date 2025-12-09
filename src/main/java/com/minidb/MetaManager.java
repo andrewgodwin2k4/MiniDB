@@ -26,7 +26,7 @@ public class MetaManager {
 			for(Map.Entry<String, String> entry: columns.entrySet()) {
 				writer.write(entry.getKey() + " " + entry.getValue() + "\n");
 			}
-			//System.out.println(Color.GREEN + "Table '" + tableName + "' created!" + Color.RESET);
+			System.out.println(Color.GREEN + "Table '" + tableName + "' created!" + Color.RESET);
 			return true;
 		}
 		catch(IOException e) {
